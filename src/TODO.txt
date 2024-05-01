@@ -1,0 +1,60 @@
+TODO:
+    Fix roar
+    Add initial direction to .mon files?
+    fix ai vision bug (not seeing player when only slightly obscured by wall)
+    Tweak exisiting levels?
+    Transition restart level feature
+
+    Assets:
+        Music:
+            Game complete
+        SFX:
+            Monster attack / player death
+        Animations:
+            monster (movement in 4 directions, walk, attack)
+
+    v2:
+        Procedurally generated levels (selectable from main menu)
+        Cool effects like chromashifting, more retro screen effects.
+        NPCs with talking animations and speech text popup at bottom of screen.
+        
+
+DONE:
+    Corrected collision detection bug.
+    Instructions on wall in game!
+    Music:Level Complete
+    Music:Title menu
+    Music:Better in game music
+    SFX:Unlock door
+    SFX:Found secret
+    SFX:Level end (ladder sound)
+    Sprites/Textures:Ladder
+    SFX:Footsteps
+    restart level feature
+    3D Sounds for monster proximity roar.
+    Adjust alignment of text and UI elements
+    Have a total of 10 levels.
+    Add compass
+    Add Xclip animation functionality
+    Add level end portal
+    (If fullscreen) Set aspect ratio depending screen size using SDL_GetVideoInfo();
+    death screen or something
+    game end screen
+    After level score screen
+    Title Menu
+    Stop monsters from seeing through walls
+    Add more sofisticated monster AI (A*)
+    Got basics of A* algorithm working
+    Add game start transition start
+    got monster sprite to show correct clip based on viewing angle
+    Add "patrol points" for monsters
+    Add monster line of sight
+    Get monster to switch between chase and patrol aiStates
+    Add timer for monster to give up chase
+    Add key symbols to UI
+    Add a ruby icon on UI (by adding a scaledBlit function)
+    Add floor rendering texture-mapping
+    Add ceiling rendering texture-mapping
+    Apply "lighting" effect to sprites
+    Add background music:
+        Main background
